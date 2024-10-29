@@ -1,0 +1,60 @@
+.catalog{
+    padding: 100px 0;
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+
+        @media (max-width: 900px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__card{
+        background-color: gray;
+        aspect-ratio: 4/3;
+        border-radius: 20px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        &:nth-child(1){
+            background-image: url(https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024);
+        }
+        &:nth-child(2){
+            background-image: url(https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024);
+        }
+        &:nth-child(3){
+            background-image: url(https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024);
+        }
+        &:nth-child(4){
+            background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024);
+        }
+        &:nth-child(5){
+            background-image: url(https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=1024);
+        }
+        &:nth-child(6){
+            background-image: url(https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024);
+        }
+        button{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+            background-color: white;
+        }
+
+        p{
+            color: white;
+            font-size: 20px;
+        }
+
+        
+    }
+}
